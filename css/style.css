@@ -1,65 +1,117 @@
-html,body{
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     font-family: "lato", Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     font-family: "lato", Arial, Helvetica, sans-serif;
-    font-size:20px;
+    font-size: 20px;
 }
 
-.barra-topo{
+.barra-topo {
     background-color: #ff6B28;
     padding: 15px;
     text-align: center;
 }
 
-#cabecalho{
-    background:url("/imagens/hero_bolo.jpg");
-    background-size:cover;
-    background-position:center;
+#cabecalho {
+    background: url("/imagens/hero_bolo.jpg");
+    background-size: cover;
+    background-position: center;
     height: 400px;
 }
 
-.conteudo{
-    margin:auto;
-    padding:0 40px;
+.conteudo {
+    margin: auto;
+    padding: 0 40px;
     max-width: 990px;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #ff6B28
 }
 
-h1{
-    font-size:48px;
-}
-h2{
-    font-size:28px;
-    margin-bottom:40px;
+h1 {
+    font-size: 48px;
 }
 
-.cartao{
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cartao {
     /* boder:1px solid; */
-    padding:70px 100px;
+    padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
 
 }
 
-.cartao:hover{
-    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(253, 104, 104, 0.25);
 
 }
 
-.ingredientes{
+.ingredientes {
     cursor: url(/imagens/cursor_ingredientes.png), default;
 }
 
-.preparo{
+.preparo {
+    cursor: url(/imagens/cursor_preparo.png), default;
 
+}
+
+.instrucoes {
+    cursor: url(/imagens/cursor_intrucoes.png), default;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-comprar {
+    background-color: #ff6B28;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes {
+    margin-bottom: 50px;
+}
+
+p, li{
+    line-height: 28px;
+}
+
+.rodape{
+    background-color: #ff6B28;
+    color:#ffff;
+    padding: 15px;
+    text-align: center;
+
+}
+.rodape-texto {
+    max-width: 500px;
+    margin:auto;
+    font-size:16px;
+    lini-height:16px;
+}
+
+.text-white{
+    color:#ffff;
 }
